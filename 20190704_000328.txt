@@ -1,0 +1,286 @@
+[04/07/2019 00:03:28][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Started MainForm :) on thread: JavaFX Application Thread
+[04/07/2019 00:03:28][LOG][com.nefi.chainrat.server.network.Server][Thread-4]Starting server...
+[04/07/2019 00:03:28][LOG][com.nefi.chainrat.server.network.Server][Thread-4]The capitalization server is running...
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread... Socket[addr=/127.0.0.1,port=58085,localport=4467]
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@3a0eec63
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 255
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:30][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:32][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:32][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:32][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:32][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:32][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:33][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:33][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:33][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:33][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:33][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:55][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:55][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:55][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:55][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:03:55][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:03:56][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:03:57][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:03:57][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:03:57][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:03:57][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:03:57][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:03:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:03:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:03:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:03:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:03:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:03:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:03:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:03:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:03:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:03:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:04:00][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:04:01][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:04:01][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:04:01][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:04:01][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:04:01][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:04:02][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:04:02][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:04:02][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:04:02][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12
+[04/07/2019 00:04:02][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 13
+[04/07/2019 00:04:03][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 14
+[04/07/2019 00:04:03][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 15
+[04/07/2019 00:04:03][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 16
+[04/07/2019 00:04:03][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 17
+[04/07/2019 00:04:03][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 18
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 19
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 20
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 21
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0 | 7
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Inside retry loop.
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sucess getting String!
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[04/07/2019 00:04:04][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 2
+[04/07/2019 00:04:05][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 3
+[04/07/2019 00:04:05][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 4
+[04/07/2019 00:04:05][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 5
+[04/07/2019 00:04:05][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 6
+[04/07/2019 00:04:05][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 7
+[04/07/2019 00:04:06][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 8
+[04/07/2019 00:04:06][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 9
+[04/07/2019 00:04:06][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 10
+[04/07/2019 00:04:06][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 11
+[04/07/2019 00:04:06][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 12

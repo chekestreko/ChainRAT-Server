@@ -1,0 +1,49 @@
+[03/07/2019 23:32:39][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Started MainForm :) on thread: JavaFX Application Thread
+[03/07/2019 23:32:39][LOG][com.nefi.chainrat.server.network.Server][Thread-4]Starting server...
+[03/07/2019 23:32:39][LOG][com.nefi.chainrat.server.network.Server][Thread-4]The capitalization server is running...
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread... Socket[addr=/127.0.0.1,port=57828,localport=4467]
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@5d4c8ebb
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 255
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Time for a ping!
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting ping...
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting JSON Serialization...
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending string...
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Sending success!
+[03/07/2019 23:32:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Ping send! Waiting for pong!
+[03/07/2019 23:32:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread... Socket[addr=/127.0.0.1,port=57829,localport=4467]
+[03/07/2019 23:33:07][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Starting network loop... - 255
+[03/07/2019 23:33:07][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]0
+[03/07/2019 23:33:07][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Time for a ping!
+[03/07/2019 23:33:10][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Starting ping...
+[03/07/2019 23:33:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Starting JSON Serialization...
+[03/07/2019 23:33:10][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@5d4c8ebb
+[03/07/2019 23:33:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Sending string...
+[03/07/2019 23:33:16][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@3e7171b6
+[03/07/2019 23:33:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Sending success!
+[03/07/2019 23:33:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Ping send! Waiting for pong!
+[03/07/2019 23:33:28][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet recieved!
+[03/07/2019 23:33:28][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread... Socket[addr=/127.0.0.1,port=57830,localport=4467]
+[03/07/2019 23:33:31][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]PONG! :)
+[03/07/2019 23:33:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]0
+[03/07/2019 23:33:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Starting network loop... - 255
+[03/07/2019 23:33:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Time for a ping!
+[03/07/2019 23:33:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 1
+[03/07/2019 23:33:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Starting ping...
+[03/07/2019 23:33:58][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]Packet recieved!
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Starting JSON Serialization...
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-2]PONG! :)
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@5d4c8ebb
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@3e7171b6
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@10388e54
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Sending string...
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Sending success!
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Ping send! Waiting for pong!
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]0
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]Packet recieved!
+[03/07/2019 23:33:59][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-3]PONG! :)

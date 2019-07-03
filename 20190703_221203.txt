@@ -1,0 +1,30 @@
+[03/07/2019 22:12:03][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Started MainForm :) on thread: JavaFX Application Thread
+[03/07/2019 22:12:03][LOG][com.nefi.chainrat.server.network.Server][Thread-4]Starting server...
+[03/07/2019 22:12:03][LOG][com.nefi.chainrat.server.network.Server][Thread-4]The capitalization server is running...
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread... 
+Socket:
+Socket[addr=/127.0.0.1,port=57007,localport=4467]
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Looping through hashmap..
+com.nefi.chainrat.server.network.Server$ClientHandler@567b5f0b
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 255
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 256
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 257
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 258
+[03/07/2019 22:15:16][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 259
+[03/07/2019 22:15:17][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 260
+[03/07/2019 22:15:17][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 261
+[03/07/2019 22:15:17][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 262
+[03/07/2019 22:15:17][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 263
+[03/07/2019 22:15:17][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 264
+[03/07/2019 22:15:18][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 265
+[03/07/2019 22:15:18][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 266
+[03/07/2019 22:15:18][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 267
+[03/07/2019 22:15:18][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 268
+[03/07/2019 22:15:18][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 269
+[03/07/2019 22:15:19][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 270
+[03/07/2019 22:15:19][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 271
+[03/07/2019 22:15:19][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 272
+[03/07/2019 22:15:19][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 273
+[03/07/2019 22:15:19][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 274
+[03/07/2019 22:15:20][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 275
+[03/07/2019 22:15:20][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting network loop... - 276

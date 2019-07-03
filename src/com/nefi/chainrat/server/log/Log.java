@@ -1,7 +1,7 @@
 package com.nefi.chainrat.server.log;
 
 import com.nefi.chainrat.server.Main;
-import com.nefi.chainrat.server.frmMainController;
+import com.nefi.chainrat.server.forms.frmMainController;
 import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 
@@ -11,10 +11,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.lang.Object;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
