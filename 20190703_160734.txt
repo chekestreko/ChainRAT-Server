@@ -1,0 +1,89 @@
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][Thread-4]Connected! Spawned new thread...
+Socket:
+Socket[addr=/127.0.0.1,port=55219,localport=4467]
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Joining network loop
+Trying to send packet
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: Test123
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullTest123
+[03/07/2019 16:07:34][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullTest123
+[03/07/2019 16:07:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullTest123
+[03/07/2019 16:07:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullTest123
+[03/07/2019 16:07:35][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullTest123
+[03/07/2019 16:07:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullTest123
+[03/07/2019 16:07:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullTest123
+[03/07/2019 16:07:36][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullTest123
+[03/07/2019 16:07:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullTest123
+[03/07/2019 16:07:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullTest123
+[03/07/2019 16:07:37][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullTest123
+[03/07/2019 16:07:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullTest123
+[03/07/2019 16:07:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullTest123
+[03/07/2019 16:07:38][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullTest123
+[03/07/2019 16:07:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullTest123
+[03/07/2019 16:07:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullTest123
+[03/07/2019 16:07:39][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullTest123
+[03/07/2019 16:07:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullTest123
+[03/07/2019 16:07:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:40][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:41][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:42][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:43][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:44][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:45][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:46][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:47][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:48][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:49][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:50][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:51][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:52][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:53][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Starting loop...
+[03/07/2019 16:07:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]From server: nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Packet:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
+[03/07/2019 16:07:54][LOG][com.nefi.chainrat.server.network.Server$ClientHandler][pool-2-thread-1]Respond:nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullTest123
