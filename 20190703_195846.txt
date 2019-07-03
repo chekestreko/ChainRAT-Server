@@ -1,2 +1,0 @@
-[03/07/2019 19:58:53][LOG][com.nefi.chainrat.server.frmMainController][JavaFX Application Thread]Looping through hashmap..
-com.nefi.chainrat.server.network.Server$ClientHandler@2201ec87

@@ -1,6 +1,0 @@
-[03/07/2019 19:22:55][LOG][com.nefi.chainrat.server.network.Server][Thread-4]Starting server...
-[03/07/2019 19:22:55][LOG][com.nefi.chainrat.server.network.Server][Thread-4]The capitalization server is running...
-[03/07/2019 19:24:19][LOG][com.nefi.chainrat.server.frmMainController][JavaFX Application Thread]Looping through hashmap..
-com.nefi.chainrat.server.network.Server$ClientHandler@567771cf
-[03/07/2019 19:24:25][LOG][com.nefi.chainrat.server.frmMainController][JavaFX Application Thread]Looping through hashmap..
-com.nefi.chainrat.server.network.Server$ClientHandler@567771cf
