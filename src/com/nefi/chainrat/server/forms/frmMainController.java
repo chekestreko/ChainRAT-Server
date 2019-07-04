@@ -12,7 +12,9 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 import java.net.URL;
 import java.util.*;
@@ -74,15 +76,47 @@ public class frmMainController implements Initializable {
     }
 
     public void btnCamManager_Click(ActionEvent actionEvent) throws Exception {
+        //If no client is selected just return
+        if(listView.getSelectionModel().getSelectedItem() == null){
+            log.d(this, "No item selected...");
+            return;
+        }
+
+        int id =  Integer.parseInt((String)listView.getSelectionModel().getSelectedItem());
+        log.d(this, "Trying to open CameraManager for " + id);
+
+
+        try {
+            log.d(this, "Loading FXML...");
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("frmCameraManager.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setTitle("Camera Manager - ID: " + id);
+            frmCameraManager cameraManager = fxmlLoader.getController();
+            cameraManager.setClientID(id);
+            stage.setScene(new Scene(root1));
+            stage.show();
+            log.d(this, "Done loading FXML...");
+        }catch (Exception ex){
+            ex.printStackTrace();
+            throw ex;
+        }
+
+        /*
+        //Create new form
         Stage stage = new Stage();
         FXMLLoader loader = new FXMLLoader(getClass().getResource("forms/frmCameraManager.fxml"));
         Parent root = loader.load();
         stage.setOnCloseRequest( event -> {
             System.exit(0);
         } );
-        stage.setTitle("Camera Manager");
+        stage.setTitle("Camera Manager - ID: " + listView.getSelectionModel().getSelectedItem().toString());
+        //Set client ID
+        frmCameraManager controller = loader.getController();
+        int cID = (int) listView.getSelectionModel().getSelectedItem();
+        controller.setClientID(cID);
         stage.setScene(new Scene(root, 800, 400));
-        stage.show();
+        stage.show();*/
     }
 
     public void btnMicManager_Click(ActionEvent actionEvent) {

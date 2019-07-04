@@ -44,7 +44,7 @@ public class Server implements Runnable {
             ExecutorService pool = Executors.newFixedThreadPool(20);
             while (true) {
                 //Accept Connection in new Thread
-                ClientHandler myCap = new ClientHandler(listener.accept(), "client"+id);
+                ClientHandler myCap = new ClientHandler(listener.accept(), "client"+id, id);
                 //Make a hashmap for my connections
                 clientMap.put(id, myCap);
                 //Increase ID
@@ -70,19 +70,21 @@ public class Server implements Runnable {
     }
 
     public static class ClientHandler implements Runnable {
-        private static final int TIMEOUT_IN_SEC = 20;
+        private static final int TIMEOUT_IN_SEC = 45;
         private static final int MAX_RETRIES = 7;
         private Socket socket;
         private Scanner in;
         private PrintWriter out;
         private Log log;
         private int timer = 255;
+        private int ID;
         private boolean connected = true;
         private int retryCounter;
 
-        ClientHandler(Socket socket, String name) {
+        ClientHandler(Socket socket, String name, int ID) {
             this.log = Main.getLog();
             this.socket = socket;
+            this.ID = ID;
             log.d(this, "Connected! Spawned new thread... " + socket);
         }
 
@@ -110,6 +112,17 @@ public class Server implements Runnable {
                 log.d(this, "DISSCONNECTING THIS CLIENT");
                 socket.close();
                 connected = false;
+                clientMap.remove(ID);
+                //Update UI
+                Platform.runLater(new Runnable() {
+                    public void run() {
+                        //Get instance of main Window
+                        frmMainController mainController = Main.getMainController();
+                        //Update Hashmap
+                        mainController.clMap = clientMap;
+                        mainController.updateListview();
+                    }
+                });
                 return true;
             }catch (Exception ex){
                 log.d(this, "error closing Socket :(");
@@ -184,6 +197,23 @@ public class Server implements Runnable {
         private void createGUI() {
         }
 
+        public IPacket sendWithResponse(IPacket packet, Type typeOfClass){
+            //Try to send packet
+            if(!this.send(packet, typeOfClass)){
+                return null;
+            }
+            //Packet send successfully
+            //Try to read packet
+            try {
+                IPacket response = this.read();
+                return response;
+            }catch (Exception ex){
+                ex.printStackTrace();
+                return null;
+            }
+
+        }
+
         public boolean send(IPacket packet, Type typeOfClass){
             String msg = toJson(packet, typeOfClass);
             if(msg == null){
@@ -233,6 +263,7 @@ public class Server implements Runnable {
                 System.out.println("Error:" + socket);
             } finally {
                 try { socket.close(); } catch (IOException e) {}
+                connected = false;
                 System.out.println("Closed: " + socket);
             }
         }

