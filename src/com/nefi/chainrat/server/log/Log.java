@@ -5,12 +5,10 @@ import com.nefi.chainrat.server.forms.frmMainController;
 import javafx.application.Platform;
 import javafx.scene.control.TextArea;
 
-
 import javax.swing.*;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.lang.Object;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.LinkedList;
