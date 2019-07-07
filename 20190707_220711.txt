@@ -1,1 +1,0 @@
-[07/07/2019 22:07:11][LOG][com.nefi.chainrat.server.forms.frmMainController][JavaFX Application Thread]Started MainForm :) on thread: JavaFX Application Thread

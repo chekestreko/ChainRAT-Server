@@ -84,7 +84,7 @@ public class Log
         autoPrint = true;
         autoFile = true;
 
-        logFileName = (new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime())) + ".txt";
+        logFileName = ("logs/" + new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime())) + ".txt";
         logFile = new File(logFileName);
     }
 
