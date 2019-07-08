@@ -16,13 +16,9 @@ public class PingPongHandler extends ChannelInboundHandlerAdapter{
         Packet packet = (Packet) msg;
 
         if(packet.type == CommandType.PING){
-            String pong = "PONG";
-            ByteBuf out = ctx.alloc().buffer(pong.length());
-            out.writeCharSequence(pong, Charsets.UTF_8);
-            ctx.writeAndFlush(out);
+            ctx.channel().writeAndFlush(packet);
             return;
         }
-
         ctx.fireChannelRead(msg);
     }
 
