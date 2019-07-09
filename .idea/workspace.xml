@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonDecoderHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonEncoderHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonEncoderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/FPSCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainRAT-Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChainRAT-Server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/ChainControlChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/ChainControlChannelInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonConverterHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/PingPongHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/CommandHandler/PingPongHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/packets/CameraRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/packets/CameraRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChainRAT-Server/com/nefi/chainrat/server/forms/frmCameraManager.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/ChainControlChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/ChainControlChannelInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonConverterHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonDecoderHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/PingPongHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/PingPongHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,25 +69,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="739">
               <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,27 +81,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonDecoderHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="255">
               <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/lib/netty-all-4.1.37.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="3842">
               <caret line="280" selection-start-line="280" selection-end-line="280" />
             </state>
           </provider>
@@ -154,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonEncoderHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="170">
               <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,14 +113,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="70" column="94" selection-start-line="70" selection-start-column="94" selection-end-line="70" selection-end-column="94" />
+            <state relative-caret-position="309">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3162#3163#0" expanded="true" />
+                <element signature="e#3257#3258#0" expanded="true" />
+                <element signature="e#4905#4906#0" expanded="true" />
                 <element signature="e#4934#4935#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/Initializable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/FPSCounter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="272">
               <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -192,8 +169,18 @@
         <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMain.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" selection-end-line="65" />
+            <state relative-caret-position="340">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="49" column="100" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
             </state>
           </provider>
         </entry>
@@ -238,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/log/LogEntry.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/CapitalizeServer.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/Packet.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/CameraPacket.java" />
@@ -274,7 +260,6 @@
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/CommandHandler/JsonConverterHandler.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/CommandListener.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandListener.java" />
-        <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandType.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMainController.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/ChainControlServer.java" />
@@ -288,7 +273,9 @@
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonEncoderHandler.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/FPSCounter.java" />
         <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java" />
+        <option value="$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml" />
       </list>
     </option>
   </component>
@@ -310,8 +297,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,12 +306,39 @@
             </path>
             <path>
               <item name="ChainRAT-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChainRAT-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChainRAT-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChainRAT-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChainRAT-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChainRAT-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChainRAT-Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChainRAT-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ControlServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChainRAT-Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,11 +480,12 @@
       <workItem from="1562520232639" duration="11187000" />
       <workItem from="1562538654894" duration="70000" />
       <workItem from="1562609443652" duration="13294000" />
+      <workItem from="1562664329676" duration="3341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75465000" />
+    <option name="totallyTimeSpent" value="78806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,7 +500,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2238806" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2260128" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -599,13 +612,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java</url>
-          <line>133</line>
+          <line>157</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java</url>
-          <line>143</line>
+          <line>167</line>
           <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
@@ -700,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="126" selection-start-line="23" selection-start-column="106" selection-end-line="23" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -759,25 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMain.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/lib/netty-all-4.1.37.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="280" selection-start-line="280" selection-end-line="280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,34 +781,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonDecoderHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/packets/CameraResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/lib/netty-all-4.1.37.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="280" selection-start-line="280" selection-end-line="280" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonEncoderHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
+        <state relative-caret-position="170">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -827,7 +817,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/CameraResponseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="272">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -835,23 +825,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/network/ControlServer/CommandHandler/JsonDecoderHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="739">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmMain.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/FPSCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/Initializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="70" column="94" selection-start-line="70" selection-start-column="94" selection-end-line="70" selection-end-column="94" />
+        <state relative-caret-position="309">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3162#3163#0" expanded="true" />
+            <element signature="e#3257#3258#0" expanded="true" />
+            <element signature="e#4905#4906#0" expanded="true" />
             <element signature="e#4934#4935#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/nefi/chainrat/server/forms/frmCameraManager.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="49" column="100" selection-start-line="49" selection-start-column="100" selection-end-line="49" selection-end-column="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">
